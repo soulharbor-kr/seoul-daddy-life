@@ -184,7 +184,7 @@ export default function AboutPage() {
                     style={{
                       left: '-54px',
                       backgroundColor: item.highlight ? '#006c51' : '#bec9c2',
-                      ringColor: '#f0fcf8',
+                      outline: '4px solid #f0fcf8',
                     }}
                   />
                   <p
