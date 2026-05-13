@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import { getPostBySlug, getRelatedPosts } from '@/lib/supabase';
-import { CATEGORIES } from '@/types';
+import { CATEGORIES, Post } from '@/types';
 import PostCard from '@/components/PostCard';
 
 export const revalidate = 3600;
