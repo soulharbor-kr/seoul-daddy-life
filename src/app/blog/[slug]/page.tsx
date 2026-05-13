@@ -34,7 +34,7 @@ export default async function PostPage({ params }: Props) {
 
   const cat = post.category ? CATEGORIES[post.category] : null;
 
-  let related = [];
+  let related: Partial<Post>[] = [];
   try {
     if (post.category) {
       related = await getRelatedPosts(post.category, slug, 3);
