@@ -91,7 +91,7 @@ export default async function HomePage() {
         style={{ backgroundColor: '#dfebe6', borderColor: 'rgba(190, 201, 194, 0.4)' }}
       >
         <div className="max-w-[1200px] mx-auto px-5 md:px-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x" style={{ divideColor: '#bec9c2' }}>
+          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-[#bec9c2]">
             {STATS.map((stat) => (
               <div key={stat.label} className="text-center px-4">
                 <div className="font-serif text-3xl font-bold mb-2" style={{ color: '#006950' }}>
